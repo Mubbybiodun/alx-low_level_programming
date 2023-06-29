@@ -3,12 +3,15 @@
 
 /**
  * _strlen - function that returns string length
- *
  * @s: string to return its length
  *
- * Return: nothing
+ * Return: length of @s
  */
 int _strlen(char *s)
 {
-	*s = str.length();
+	int length = 0;
+
+	while (*s++)
+	length++;
+	return (length);
 }
