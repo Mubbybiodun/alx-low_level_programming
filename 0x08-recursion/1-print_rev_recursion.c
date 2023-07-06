@@ -2,6 +2,7 @@
 
 /**
  * _print_rev_recursion - check the code
+ * @s: input
  *
  * Return: Always 0.
  */
